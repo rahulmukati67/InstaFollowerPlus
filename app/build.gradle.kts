@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.instafollowerplus"
+    namespace = "com.my.instafollowerplus"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.instafollowerplus"
+        applicationId = "com.my.instafollowerplus"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

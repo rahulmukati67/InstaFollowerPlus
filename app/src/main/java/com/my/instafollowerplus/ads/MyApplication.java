@@ -1,4 +1,4 @@
-package com.example.instafollowerplus.ads;
+package com.my.instafollowerplus.ads;
 
 import android.app.Activity;
 import android.app.Application;

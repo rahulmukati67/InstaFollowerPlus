@@ -1,4 +1,4 @@
-package com.example.instafollowerplus
+package com.my.instafollowerplus
 
 import org.junit.Test
 

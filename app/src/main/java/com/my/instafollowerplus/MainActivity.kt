@@ -1,10 +1,10 @@
-package com.example.instafollowerplus
+package com.my.instafollowerplus
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.instafollowerplus.ads.MyApplication
-import com.example.instafollowerplus.databinding.ActivityMainBinding
+import com.my.instafollowerplus.ads.MyApplication
+import com.my.instafollowerplus.databinding.ActivityMainBinding
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
@@ -46,19 +46,15 @@ class MainActivity : AppCompatActivity() {
         val adRequest = AdRequest.Builder().build()
         adView.loadAd(adRequest)
         adView3.loadAd(adRequest)
-
     }
-
     override fun onStart() {
         super.onStart()
         val myApplication = application as? MyApplication
         myApplication?.triggerAdDisplay()
     }
-
     override fun onResume() {
         super.onResume()
         val myApplication = application as? MyApplication
         myApplication?.triggerAdDisplay()
     }
-
 }

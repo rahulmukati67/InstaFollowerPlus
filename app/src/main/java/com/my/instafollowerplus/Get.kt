@@ -1,15 +1,14 @@
-package com.example.instafollowerplus
+package com.my.instafollowerplus
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.example.instafollowerplus.ads.MyApplication
-import com.example.instafollowerplus.databinding.ActivityGetBinding
+import com.my.instafollowerplus.ads.MyApplication
+import com.my.instafollowerplus.databinding.ActivityGetBinding
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
-
 
 class Get : AppCompatActivity() {
     private lateinit var adView: AdView
