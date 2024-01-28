@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "282293983842",
+    "project_id": "instafollowers-2a4a7",
+    "storage_bucket": "instafollowers-2a4a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282293983842:android:3e0e8d950ca2c26fb2cf3b",
+        "android_client_info": {
+          "package_name": "com.example.instafollowerplus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTCDkkoKq3LAw7hlT5mltEX5utx4WY3qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
